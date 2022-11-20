@@ -661,7 +661,7 @@ textarea {
   font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: var(--background-color);
 }
 
@@ -669,7 +669,7 @@ textarea {
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.6);
 }
 
@@ -735,6 +735,11 @@ textarea {
   transition: border var(--transition-time);
 }
 
+/*   border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border var(--transition-time); */
+
+.input-subscription:hover,
 .input-subscription:focus {
   outline: 0;
   border: 1px solid var(--accent-color);
@@ -862,6 +867,7 @@ textarea {
   transition: border var(--transition-time);
 }
 
+.form-field input:hover,
 .form-field input:focus {
   outline: 0;
   border: 1px solid var(--accent-color);
@@ -874,6 +880,7 @@ textarea {
   transition: fill var(--transition-time);
 }
 
+.form-input:hover +.input-icon,
 .form-input:focus + .input-icon {
   fill: var(--accent-color);
 }
@@ -891,6 +898,7 @@ textarea {
   transition: border var(--transition-time);
 }
 
+.form-field textarea:hover,
 .form-field textarea:focus {
   outline: 0;
   border: 1px solid var(--accent-color);
