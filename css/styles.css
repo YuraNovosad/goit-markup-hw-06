@@ -810,7 +810,6 @@ textarea {
   border-radius: 50%;
   cursor: pointer;
   transition: var(--transition-fill), top var(--transition-time), right var(--transition-time);
-  /* transition: fill var(--transition-time) */
 }
 
 .icon-close:hover,
